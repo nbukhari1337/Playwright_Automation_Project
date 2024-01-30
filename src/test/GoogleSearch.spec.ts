@@ -8,7 +8,7 @@ test.beforeAll(async({browser}) => {
     page = await browser.newPage()
 })
 
-test("search for bmw on google search field @smoke",async() => {
+test("search for bmw on google search field",async() => {
 //print out steps to console (sys.out in java)
 console.log("Navigating to google home page")
 //navigate to google
@@ -28,6 +28,4 @@ console.log("Captured the search result")
 let resultArray = result?.split(" ")
 //print out only the search result number
 console.log("Search result number is " + resultArray[1])
-//test001 for github
-//test002
 })

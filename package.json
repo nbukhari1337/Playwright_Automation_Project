@@ -6,7 +6,7 @@
   "scripts": {
     "googleSearch": "npx playwright test src/test/GoogleSearch.spec.ts --headed --project=chrome --workers=1 --reporter=html",
     "smoketest": "npx playwright test --grep @smoke src/test/* --headed --project=chrome --workers=1 --reporter=html",
-    "showreport": "npx playwright show-report"  
+    "showreport": "npx playwright show-report"
   },
   "keywords": [],
   "author": "",
