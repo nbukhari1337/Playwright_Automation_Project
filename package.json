@@ -6,7 +6,10 @@
   "scripts": {
     "googleSearch": "npx playwright test src/test/GoogleSearch.spec.ts --headed --project=chrome --workers=1 --reporter=html",
     "smoketest": "npx playwright test --grep @smoke src/test/* --headed --project=chrome --workers=1 --reporter=html",
-    "showreport": "npx playwright show-report"
+    "showreport": "npx playwright show-report",
+    "googleForLoop": "npx playwright test src/test/GoogleForLoop.spec.ts --headed --project=chrome --workers=1 --reporter=html",
+    "googleForLoopParallel": "npx playwright test src/test/GoogleForLoop.spec.ts --headed --project=chrome --project=firefox --workers=2 --reporter=html"
+    
   },
   "keywords": [],
   "author": "",
