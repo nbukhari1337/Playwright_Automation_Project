@@ -1,0 +1,8 @@
+Navigating to google home page
+Typing bmw in the search field
+Clicked on google search button
+Captured the search result
+Search result number is 1,560,000,000
+Navigating to google home page
+Typing bmw in the search field
+Clicked on google search button

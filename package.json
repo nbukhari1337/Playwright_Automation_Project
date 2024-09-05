@@ -13,11 +13,11 @@
     "googleSearchAllure": "npx playwright test src/test/GoogleSearchAllure.spec.ts --headed --project=chrome --project=firefox --workers=1 --reporter=line,allure-playwright",
     "smoketest": "npx playwright test --grep @smoke src/test/* --headed --project=chrome --workers=1 --reporter=html",
     "showreport": "npx playwright show-report",
-    "googleForLoop": "npx playwright test src/test/GoogleForLoop.spec.ts --headed --project=chrome --workers=1 --reporter=html",
+    "googleForLoop": "npx playwright test src/test/GoogleForLoop.spec.ts --headed --project=firefox --workers=1 --reporter=html",
     "googleForLoopParallel": "npx playwright test src/test/GoogleForLoop.spec.ts --headed --project=chrome --project=firefox --workers=2 --reporter=html"
     
   },
-  "keywords": [],
+  "keywords": [
   "author": "",
   "license": "ISC",
   "devDependencies": {

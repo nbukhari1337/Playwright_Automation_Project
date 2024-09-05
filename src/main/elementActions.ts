@@ -9,7 +9,7 @@ export async function sendKeys(page:Page, xpath:string, userValue:string, elemen
     })
 }
 
-//create a method for clicking by index
+//create a method for clicking
 export async function click(page:Page, xpath:string, elementName:string) {
     await allure.step("Click on " + elementName, async() => {
         await page.locator(xpath).click()
