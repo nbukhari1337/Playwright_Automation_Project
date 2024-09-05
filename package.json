@@ -17,7 +17,7 @@
     "googleForLoopParallel": "npx playwright test src/test/GoogleForLoop.spec.ts --headed --project=chrome --project=firefox --workers=2 --reporter=html"
     
   },
-  "keywords": [
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
